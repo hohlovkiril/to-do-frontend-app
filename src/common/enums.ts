@@ -1,0 +1,7 @@
+export enum TASK_STATUS {
+	TODO,
+	PROGRESS,
+	BLOCKED,
+	COMPLETED,
+	CANCELED,
+}
