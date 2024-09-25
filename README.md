@@ -36,27 +36,27 @@ Make sure you have the following installed:
 
 1. Clone the repository:
 
-    ```bash
-    git clone https://github.com/your-username/todo-frontend-app.git
-    cd todo-frontend-app
-    ```
+```bash
+git clone https://github.com/your-username/todo-frontend-app.git
+cd todo-frontend-app
+```
 
 2. Install the dependencies:
 
-    ```bash
-    npm install
-    ```
+```bash
+npm install
+```
 
 3. Set up environment variables:
 
-		Update a data.ts file in the src/common directory and update following variables to configure the API endpoint and other settings:
+Update a data.ts file in the src/common directory and update following variables to configure the API endpoint and other settings:
 
-    ```bash
-    SERVER_DEBUG_URI=http://localhost:3030/api
-		SERVER_PROD_URI=https://example.com
-    ```
+```bash
+SERVER_DEBUG_URI=http://localhost:3030/api
+SERVER_PROD_URI=https://example.com
+```
 
-    Ensure that the API URL points to your running **To-Do Backend App**.
+Ensure that the API URL points to your running **To-Do Backend App**.
 
 ## Running the Application
 
